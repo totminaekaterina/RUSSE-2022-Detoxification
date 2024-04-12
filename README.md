@@ -28,6 +28,10 @@ The filtered data set was obtained by selecting pairs of sentences that make up 
 
 ![data_metrics](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/data_metrics.png)
 
+</center>
+Fig.1 - data metrics.
+</center>
+
 ## STAGE II. A PRETRAINED AUTOREGRESSIVE MODEL ruGPT3
 ### Step 1
 
