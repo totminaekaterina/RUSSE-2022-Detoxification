@@ -1,5 +1,5 @@
 # RUSSE-2022-Detoxification
-The task of [RUSSE Detoxification 2022](https://www.example.com) was completed at the level of toxic comments. In this formulation, the goal is to get a neutral sentence out of a toxic one. 
+The task of [RUSSE Detoxification 2022](https://www.dialog-21.ru/en/dialogue-evaluation/competitions/dialogue-evaluation-2022/russe-2022-detoxification/) was completed at the level of toxic comments. In this formulation, the goal is to get a neutral sentence out of a toxic one. 
 The criteria for the complexity of the sentence include the presence of rude and toxic words that complicate the understanding of the meaning of the message, stylized graphic images (emoji), the presence of rare, ambiguous and colloquial words, the presence of anglicisms, etc.
 
 ## SOLUTION
@@ -102,4 +102,4 @@ The examples of proposals presented in Fig. 7 can be characterized as those that
 ![Category 3](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/have%20not%20been%20subjected%20to%20any%20restrictions%20at%20all.png)
 
 ## FURTHER IMPROVEMENT OF THE MODEL
-we evaluated one of the approaches to detoxification of sentences by fine-tuning a pre-trained ruGPT3 model and selecting generated samples based on the similarities and differences between the input toxic and output neutral sentences, using the ruPrompts library and the Delete method. At the **Human Evaluation stage**, the system received a href metric value of **0.455**; at the **Automatic Evaluation stage** - **0.505**, and took eighth place at **Manual Evaluation**. The results published on [the conference page](https://www.dialog-21.ru/evaluation/2022/russe/).
+Were evaluated one of the approaches to detoxification of sentences by fine-tuning a pre-trained ruGPT3 model and selecting generated samples based on the similarities and differences between the input toxic and output neutral sentences, using the ruPrompts library and the Delete method. At the **Human Evaluation stage**, the system received a href metric value of **0.455**; at the **Automatic Evaluation stage** - **0.505**, and took eighth place at **Manual Evaluation**. The results published on [the conference page](https://www.dialog-21.ru/evaluation/2022/russe/).
