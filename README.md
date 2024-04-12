@@ -112,4 +112,4 @@ The examples of proposals presented in **Fig. 7** can be characterized as those 
 ## FURTHER IMPROVEMENT OF THE MODEL
 Were evaluated one of the approaches to detoxification of sentences by fine-tuning a pre-trained ruGPT3 model and selecting generated samples based on the similarities and differences between the input toxic and output neutral sentences, using the ruPrompts library and the Delete method. At the **Human Evaluation stage**, the system received a href metric value of **0.455**; at the **Automatic Evaluation stage** - **0.505**, and took eighth place at **Manual Evaluation**. The results published on [the conference page](https://www.dialog-21.ru/evaluation/2022/russe/).
 
-On the ([Dialog conference](https://www.dialog-21.ru/media/5740/totminaev114.pdf)) website you can find the article about this work :)
+On [the Dialog conference](https://www.dialog-21.ru/media/5740/totminaev114.pdf) website you can find the article about this work :)
