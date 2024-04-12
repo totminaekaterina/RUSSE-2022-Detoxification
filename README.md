@@ -26,7 +26,7 @@ The filtered data set was obtained by selecting pairs of sentences that make up 
 2. ROUGE-L between 0.1 and 0.8. 
 3. The length of the token of a neutral sentence, which is less than or equal to the length of the token of a toxic sentence.
 
-# STAGE II. A PRETRAINED AUTOREGRESSIVE MODEL ruGPT3
+## STAGE II. A PRETRAINED AUTOREGRESSIVE MODEL ruGPT3
 **Step 1**
 
 After we used a pretrained autoregressive GPT2-like model with 350M parameters from SberDevices called RuGPT3Medium. Finetuning was done on the prepared examples from the filtered train dataset using transformers library. 
