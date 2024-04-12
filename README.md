@@ -26,7 +26,7 @@ The filtered data set was obtained by selecting pairs of sentences that make up 
 2. ROUGE-L between 0.1 and 0.8. 
 3. The length of the token of a neutral sentence, which is less than or equal to the length of the token of a toxic sentence.
 
-![data_metrics](https://raw.githubusercontent.com/totminaekaterina/RUSSE-2022-Detoxification/main/data_metrics.png)
+![data_metrics](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/data_metrics.png)
 
 ## STAGE II. A PRETRAINED AUTOREGRESSIVE MODEL ruGPT3
 ### Step 1
