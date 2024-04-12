@@ -93,19 +93,19 @@ Were selected some examples of the detoxified sentences predicted for test evalu
 
 ---
 
-In Fig. 5, There are the proposals that *completely got rid of the negative connotation and moved into the category of neutral*.
+**In Fig. 5**, There are the proposals that *completely got rid of the negative connotation and moved into the category of neutral*.
 
 ![Category 1](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/completely%20got%20rid%20of%20the%20negative%20connotation.png)
 
 ---
 
-Fig. 6 shows examples of those results of proposals that *were not fully detoxified or with errors*, but without any serious negative features. 
+**Fig. 6** shows examples of those results of proposals that *were not fully detoxified or with errors*, but without any serious negative features. 
 
 ![Category 2](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/were%20not%20fully%20detoxified.png)
 
 ---
 
-The examples of proposals presented in Fig. 7 can be characterized as those that have not been subjected to any restrictions at all, they have left a negative connotation and retained their original toxicity.
+The examples of proposals presented in **Fig. 7** can be characterized as those that have not been subjected to any restrictions at all, they have left a negative connotation and retained their original toxicity.
 
 ![Category 3](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/have%20not%20been%20subjected%20to%20any%20restrictions%20at%20all.png)
 
