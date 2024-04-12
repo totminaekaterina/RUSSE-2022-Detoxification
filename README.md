@@ -2,12 +2,16 @@
 The task of RUSSE Detoxification 2022 was completed at the level of toxic comments. In this formulation, the goal is to get a neutral sentence out of a toxic one. 
 The criteria for the complexity of the sentence include the presence of rude and toxic words that complicate the understanding of the meaning of the message, stylized graphic images (emoji), the presence of rare, ambiguous and colloquial words, the presence of anglicisms, etc.
 
+---
+
 ## SOLUTION
 Solution consisted in:
 1. Filtering the provided training data set. 
 2. Fine-tuning the pretrained RuGPT3 model.
 3. Selecting examples of detoxified (neutral) sentences generated with its help based on their cosine similarity and ROUGE-L to the input toxic sentence for their subsequent processing using the ruPrompts library for ruGPT3. 
 4. The final stage of processing the generated neutral comments was carried out using the Delete method.
+
+---
 
 ## QUALITY CRITERIA
 To automatically evaluate the models, the organizers gave the following indicators:
