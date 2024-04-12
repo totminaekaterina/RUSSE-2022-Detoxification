@@ -38,10 +38,13 @@ After we used a pretrained autoregressive GPT2-like model with 350M parameters f
 ### Step 2
 
 These examples were fed into the model with the addition of special tokens (<|startoftext|> - in the beginning, <|sep|> - between toxic and detoxified sentences, <|pad|> - padding token): 
+
 *<|startoftext|>toxic sentence<|sep|>detoxified sentence*
 
 After finetuning it is possible to feed into the model a prepared example as follows: 
+
 *<|startoftext|>new toxic sentence<|sep|>*
+
 and have the model generate a detoxified sentence.
 
 ### Step 3
@@ -88,14 +91,19 @@ Were selected some examples of the detoxified sentences predicted for test evalu
 | Partial loss of toxicity    | Preservation of negative connotation, but with the absence of obscene vocabulary. The meaning of the sentence differs from the original, the loss of some important details, but the result can be called nontoxic | 
 | Preservation of toxicity    | Complete preservation of the toxicity of the original sentence or nonsense  | 
 
+---
 
 In Fig. 5, There are the proposals that *completely got rid of the negative connotation and moved into the category of neutral*.
 
 ![Category 1](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/completely%20got%20rid%20of%20the%20negative%20connotation.png)
 
+---
+
 Fig. 6 shows examples of those results of proposals that *were not fully detoxified or with errors*, but without any serious negative features. 
 
 ![Category 2](https://github.com/totminaekaterina/RUSSE-2022-Detoxification/blob/main/imgs/were%20not%20fully%20detoxified.png)
+
+---
 
 The examples of proposals presented in Fig. 7 can be characterized as those that have not been subjected to any restrictions at all, they have left a negative connotation and retained their original toxicity.
 
