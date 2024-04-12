@@ -28,9 +28,11 @@ The filtered data set was obtained by selecting pairs of sentences that make up 
 
 # STAGE II. A PRETRAINED AUTOREGRESSIVE MODEL ruGPT3
 **Step 1**
+
 After we used a pretrained autoregressive GPT2-like model with 350M parameters from SberDevices called RuGPT3Medium. Finetuning was done on the prepared examples from the filtered train dataset using transformers library. 
 
 **Step 2**
+
 These examples were fed into the model with the addition of special tokens (<|startoftext|> - in the beginning, <|sep|> - between toxic and detoxified sentences, <|pad|> - padding token): 
 **<|startoftext|>toxic sentence<|sep|>detoxified sentence**
 
@@ -39,6 +41,7 @@ After finetuning it is possible to feed into the model a prepared example as fol
 and have the model generate a detoxified sentence.
 
 **Step 3**
+
 Feeding the toxic sentence as a prompt into the model can generate several neutral sentences. Parameters were chosen empirically and presented in Table 2.
 
 
