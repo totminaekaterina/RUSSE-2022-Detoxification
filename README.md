@@ -39,11 +39,11 @@ After we used a pretrained autoregressive GPT2-like model with 350M parameters f
 
 These examples were fed into the model with the addition of special tokens (<|startoftext|> - in the beginning, <|sep|> - between toxic and detoxified sentences, <|pad|> - padding token): 
 
-# &nbsp;&nbsp; *<|startoftext|>toxic sentence<|sep|>detoxified sentence*
+    *<|startoftext|>toxic sentence<|sep|>detoxified sentence*
 
 After finetuning it is possible to feed into the model a prepared example as follows: 
 
-# &nbsp;&nbsp; *<|startoftext|>new toxic sentence<|sep|>*
+    *<|startoftext|>new toxic sentence<|sep|>*
 
 and have the model generate a detoxified sentence.
 
